@@ -3,4 +3,7 @@
     <string name="main_text">WELCOME\nTO HumNum Application. Here you can order some meals</string>
     <string name="sign_up">Sign Up</string>
     <string name="sign_in">Sign In</string>
+    <string name="phone_number_edit_text">Phone number</string>
+    <string name="password_edit_text">Password</string>
+    <string name="name_edit_text">Name</string>
 </resources>
