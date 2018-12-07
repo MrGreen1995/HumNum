@@ -6,6 +6,62 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".MainActivity">
+    
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/main_text"
+            android:layout_width="200dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/sig_up_button"
+            android:text="@string/sign_up"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:buttonColor="@color/buttonSignUp"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            android:shadowRadius="4dp"
+            app:shadowColor="@android:color/black"/>
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/sig_in_button"
+            android:text="@string/sign_in"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:buttonColor="@color/buttonSignIn"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            android:shadowRadius="4dp"
+            app:shadowColor="@android:color/black"/>
+
+    </LinearLayout>
 
 
 
