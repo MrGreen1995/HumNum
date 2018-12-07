@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1019869554458",
+    "firebase_url": "https://humnum-46972.firebaseio.com",
+    "project_id": "humnum-46972",
+    "storage_bucket": "humnum-46972.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019869554458:android:02bb2fd43107ef6c",
+        "android_client_info": {
+          "package_name": "com.example.admin.humnum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019869554458-7p6u0vtm41cpftuvffbemr79pkn7bolg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.humnum",
+            "certificate_hash": "1604f2f26bbb9808036ac659f024c3a5f7d8e4f6"
+          }
+        },
+        {
+          "client_id": "1019869554458-5bts9baehkklvjikj08b3pbf8d6h8r6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZnJkDUIgDMrGLUDEIh6anWLxGSFsgsQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019869554458-5bts9baehkklvjikj08b3pbf8d6h8r6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
